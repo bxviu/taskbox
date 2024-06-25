@@ -33,7 +33,6 @@
     "build-storybook": "storybook build",
     "init-msw": "msw init public/",
     "test-storybook": "test-storybook"
-    // "chromatic": "npx chromatic --project-token="
   },
   "devDependencies": {
     "@chromatic-com/storybook": "^1.5.0",
