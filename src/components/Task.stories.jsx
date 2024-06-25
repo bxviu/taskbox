@@ -46,3 +46,14 @@ export const Archived = {
     },
   },
 };
+
+const longTitleString = `AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA`
+
+export const LongTitle = {
+  args: {
+    task: {
+      ...Default.args.task,
+      title: longTitleString,
+    },
+  },
+};
